@@ -1,9 +1,13 @@
 [package]
 name = "cerberus-opsct"
 version = "0.1.0"
+authors = ["xx10n <xiao.bytedance@proton.me>"]
 edition = "2026"
+description = "Active Aggressive CLI Tools for Search Vulnerability"
+repository = "https://github.com/xx10n/CERBERUS-OPSCT"
+license = "MIT"
 
 [dependencies]
-crossterm = {version = "0.28.1", features = ["event-stream"]} 
+crossterm = { version = "0.28.1", features = ["event-stream"] } 
 image = "0.25.5"
-viuer = {version = "0.9.1", features = ["print-file"]}
+viuer = { version = "0.9.1", features = ["print-file"] }
