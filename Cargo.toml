@@ -1,5 +1,5 @@
 [package]
-name = "cerberus-opsct"
+name = "cerberus-cli"
 version = "0.1.6"
 authors = ["xx10n <xiao.bytedance@proton.me>"]
 edition = "2021"
