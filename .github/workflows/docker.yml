@@ -7,7 +7,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  # Menggunakan kombinasi username dan nama package yang baru
+  IMAGE_NAME: ${{ github.repository_owner }}/cerberus-cli
 
 jobs:
   build-and-push-image:
