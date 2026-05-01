@@ -1,6 +1,6 @@
 [package]
 name = "cerberus-cli"
-version = "0.1.7"
+version = "0.1.8"
 authors = ["xx10n <xiao.bytedance@proton.me>"]
 edition = "2021"
 description = "Active Aggressive CLI Tools for Search Vulnerability"
